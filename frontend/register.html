@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký - Sapa TV</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2d9737;
+            --secondary-color: #ffcc00;
+            --text-light: #ffffff;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .top-bar {
+            background-color: #fff;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .navbar {
+            background-color: var(--primary-color) !important;
+        }
+
+        .navbar .nav-link {
+            color: var(--text-light) !important;
+            font-weight: 500;
+            padding: 10px 15px !important;
+        }
+
+        .auth-container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .auth-title {
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+
+        .btn-primary:hover {
+            background-color: #248a2f;
+            border-color: #248a2f;
+        }
+
+        .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 0.25rem rgba(45, 151, 55, 0.25);
+        }
+
+        .form-check-input:checked {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+
+        .social-login {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        .social-login-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin: 0 5px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .social-login-btn.facebook {
+            background-color: #3b5998;
+        }
+
+        .social-login-btn.google {
+            background-color: #db4437;
+        }
+
+        .social-login-btn.zalo {
+            background-color: #0068ff;
+        }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .divider::before,
+        .divider::after {
+            content: '';
+            flex: 1;
+            border-bottom: 1px solid #eee;
+        }
+
+        .divider span {
+            padding: 0 10px;
+            color: #888;
+        }
+
+        .floating-buttons {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .floating-buttons .btn {
+            display: block;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-to-top {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .copyright {
+            background-color: #f1f1f1;
+            padding: 15px 0;
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .password-strength {
+            height: 5px;
+            margin-top: 5px;
+            background-color: #e9ecef;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+        
+        .password-strength-bar {
+            height: 100%;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3 col-6">
+                    <a href="index.html" class="d-block">
+                        <img src="/api/placeholder/120/60" alt="Sapa TV Logo" class="img-fluid" style="max-height: 60px;">
+                    </a>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <div class="text-center">
+                        <h2 class="h4 text-success mb-0">Đăng Ký Tài Khoản</h2>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6 text-end">
+                    <a href="index.html" class="btn btn-outline-success">
+                        <i class="fas fa-home me-1"></i> Trang chủ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="productDropdown" role="button" data-bs-toggle="dropdown">
+                            Sản phẩm
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Mật ong nguyên chất</a></li>
+                            <li><a class="dropdown-item" href="#">Nấm hương Vip</a></li>
+                            <li><a class="dropdown-item" href="#">Thịt trâu gác bếp</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nhà Hàng SapaTV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Khách Sạn SapaTV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Video Về Sapatv</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Registration Form -->
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="auth-container">
+                    <h2 class="auth-title">Đăng Ký Tài Khoản</h2>
+                    
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="fullname" class="form-label">Họ và tên <span class="text-danger">*</span></label>
+                                    <input type="text" class="form-control" id="fullname" required>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Số điện thoại <span class="text-danger">*</span></label>
+                                    <input type="tel" class="form-control" id="phone" required>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="password" class="form-label">Mật khẩu <span class="text-danger">*</span></label>
+                                    <div class="input-group">
+                                        <input type="password" class="form-control" id="password" required>
+                                        <button class="btn btn-outline-secondary" type="button" id="togglePassword">
+                                            <i class="far fa-eye"></i>
+                                        </button>
+                                    </div>
+                                    <div class="password-strength">
+                                        <div class="password-strength-bar" id="passwordStrengthBar"></div>
+                                    </div>
+                                    <small class="text-muted">Mật khẩu tối thiểu 8 ký tự, bao gồm chữ hoa, chữ thường và số</small>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="confirmPassword" class="form-label">Xác nhận mật khẩu <span class="text-danger">*</span></label>
+                                    <div class="input-group">
+                                        <input type="password" class="form-control" id="confirmPassword" required>
+                                        <button class="btn btn-outline-secondary" type="button" id="toggleConfirmPassword">
+                                            <i class="far fa-eye"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="address" class="form-label">Địa chỉ</label>
+                            <input type="text" class="form-control" id="address">
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="province" class="form-label">Tỉnh/Thành phố</label>
+                                    <select class="form-select" id="province">
+                                        <option selected disabled>Chọn tỉnh/thành phố</option>
+                                        <option>Hà Nội</option>
+                                        <option>Hồ Chí Minh</option>
+                                        <option>Đà Nẵng</option>
+                                        <!-- Thêm các tỉnh thành khác -->
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="district" class="form-label">Quận/Huyện</label>
+                                    <select class="form-select" id="district" disabled>
+                                        <option selected disabled>Chọn quận/huyện</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="agreeTerms" required>
+                            <label class="form-check-label" for="agreeTerms">
+                                Tôi đồng ý với <a href="#" class="text-success">Điều khoản dịch vụ</a> và <a href="#" class="text-success">Chính sách bảo mật</a> của Sapa TV
+                            </label>
+                        </div>
+                        
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="receiveNews">
+                            <label class="form-check-label" for="receiveNews">
+                                Tôi muốn nhận thông tin khuyến mãi từ Sapa TV
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary w-100 py-2">Đăng Ký</button>
+                    </form>
+                    
+                    <div class="divider">
+                        <span>hoặc đăng ký với</span>
+                    </div>
+                    
+                    <div class="social-login">
+                        <a href="#" class="social-login-btn facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-login-btn google">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <a href="#" class="social-login-btn zalo">
+                            <i class="fas fa-comment"></i>
+                        </a>
+                    </div>
+                    
+                    <div class="text-center mt-4">
+                        <p>Bạn đã có tài khoản? <a href="login.html" class="text-success">Đăng nhập ngay</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="copyright">
+        <div class="container">
+            <p class="mb-0">Bản quyền thuộc về Sapa TV. Cung cấp bởi Sapo.</p>
+        </div>
+    </div>
+
+    <!-- Floating Buttons -->
+    <div class="floating-buttons">
+        <a href="#" class="btn back-to-top"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Toggle password visibility
+        document.getElementById('togglePassword').addEventListener('click', function() {
+            const passwordInput = document.getElementById('password');
+            const eyeIcon = this.querySelector('i');
+            
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+                eyeIcon.classList.remove('fa-eye');
+                eyeIcon.classList.add('fa-eye-slash');
+            } else {
+                passwordInput.type = 'password';
+                eyeIcon.classList.remove('fa-eye-slash');
+                eyeIcon.classList.add('fa-eye');
+            }
+        });
+        
+        // Toggle confirm password visibility
+        document.getElementById('toggleConfirmPassword').addEventListener('click', function() {
+            const confirmPasswordInput = document.getElementById('confirmPassword');
+            const eyeIcon = this.querySelector('i');
+            
+            if (confirmPasswordInput.type === 'password') {
+                confirmPasswordInput.type = 'text';
+                eyeIcon.classList.remove('fa-eye');
+                eyeIcon.classList.add('fa-eye-slash');
+            } else {
+                confirmPasswordInput.type = 'password';
+                eyeIcon.classList.remove('fa-eye-slash');
+                eyeIcon.classList.add('fa-eye');
+            }
+        });
+        
+        // Password strength indicator
+        document.getElementById('password').addEventListener('input', function() {
+            const password = this.value;
+            const strengthBar = document.getElementById('passwordStrengthBar');
+            let strength = 0;
+            
+            // Kiểm tra độ dài mật khẩu
+            if (password.length >= 8) strength += 1;
+            if (password.length >= 12) strength += 1;
+            
+            // Kiểm tra có chữ hoa
+            if (/[A-Z]/.test(password)) strength += 1;
+            
+            // Kiểm tra có chữ thường
+            if (/[a-z]/.test(password)) strength += 1;
+            
+            // Kiểm tra có số
+            if (/[0-9]/.test(password)) strength += 1;
+            
+            // Kiểm tra có ký tự đặc biệt
+            if (/[^A-Za-z0-9]/.test(password)) strength += 1;
+            
+            // Cập nhật thanh độ mạnh
+            let width = 0;
+            let color = '#dc3545'; // Đỏ
+            
+            if (strength <= 2) {
+                width = 33;
+                color = '#dc3545'; // Đỏ
+            } else if (strength <= 4) {
+                width = 66;
+                color = '#ffc107'; // Vàng
+            } else {
+                width = 100;
+                color = '#28a745'; // Xanh
+            }
+            
+            strengthBar.style.width = width + '%';
+            strengthBar.style.backgroundColor = color;
+        });
+        
+        // Kích hoạt select quận/huyện khi chọn tỉnh/thành phố
+        document.getElementById('province').addEventListener('change', function() {
+            const districtSelect = document.getElementById('district');
+            if (this.value) {
+                districtSelect.disabled = false;
+                // Đây là nơi bạn có thể thêm các quận/huyện tương ứng với tỉnh/thành phố
+                districtSelect.innerHTML = '<option selected disabled>Chọn quận/huyện</option>';
+                // Thêm các quận/huyện tương ứng vào đây
+            } else {
+                districtSelect.disabled = true;
+                districtSelect.innerHTML = '<option selected disabled>Chọn quận/huyện</option>';
+            }
+        });
+    </script>
+</body>
+</html>
