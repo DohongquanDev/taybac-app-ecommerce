@@ -1,6 +1,10 @@
 
 using backend.Models;
+using backend.Repositories.UserRepository;
+using backend.Services.UserService;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 namespace backend
 {
@@ -13,7 +17,28 @@ namespace backend
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<TayBacDbContext>(options =>
              options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddAuthentication("Bearer")
+             .AddJwtBearer("Bearer", options =>
+             {
+                 var jwtKey = builder.Configuration["Jwt:Key"];
+                 if (string.IsNullOrEmpty(jwtKey))
+                 {
+                     throw new Exception("Jwt:Key is missing in configuration.");
+                 }
 
+                 options.TokenValidationParameters = new TokenValidationParameters
+                 {
+                     ValidateIssuer = false,
+                     ValidateAudience = false,
+                     ValidateLifetime = true,
+                     ValidateIssuerSigningKey = true,
+                     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey))
+                 };
+             });
+
+            builder.Services.AddAuthorization();
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IAuthService, AuthService>();
             // Add services to the container.
 
             builder.Services.AddControllers();
