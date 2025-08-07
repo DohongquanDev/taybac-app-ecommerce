@@ -1,4 +1,5 @@
 ﻿using backend.DTOs.UserDTO;
+using backend.DTOs.UserDTO.RegisterRequest;
 using backend.Services.UserService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -21,6 +22,15 @@ namespace backend.Controllers.UserController
             if(!result.Success) 
                 return Unauthorized(result);
             return Ok(result);  
+        }
+        [HttpPost("register")]
+        public IActionResult Register([FromBody] RegisterRequest request)
+        {
+            var result = _authService.Register(request);
+            if (!result.Success)
+               return BadRequest(result);
+            return Ok(result);
+            
         }
     }
 }                                   

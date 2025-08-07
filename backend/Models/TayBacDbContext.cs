@@ -39,7 +39,7 @@ public partial class TayBacDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=DOHONGQUAN\\SQLEXPRESS;Database=TayBacDB;User Id=sa;Password=Luvina2025@123;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=DOHONGQUAN\\SQLEXPRESS;Database=TayBacDB;User Id=sa;Password=12345678;TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -209,7 +209,8 @@ public partial class TayBacDbContext : DbContext
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime");
             entity.Property(e => e.Email).HasMaxLength(100);
-            entity.Property(e => e.FullName).HasMaxLength(100);
+            entity.Property(e => e.FirstName).HasMaxLength(100);
+            entity.Property(e => e.LastName).HasMaxLength(100);
             entity.Property(e => e.PasswordHash).HasMaxLength(64);
             entity.Property(e => e.Role)
                 .HasMaxLength(50)

@@ -4,6 +4,10 @@ namespace backend.Repositories.UserRepository
 {
     public interface IUserRepository
     {
-        User getUserByLogin(string email,String password);
+        User? getUserByLogin(string email,String password);
+        User? GetUserByUsernameOrEmail(string username,string email); 
+        void AddUser(User user);
+        
+
     }
 }

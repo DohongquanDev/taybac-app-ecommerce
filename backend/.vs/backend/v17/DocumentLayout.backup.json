@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\taybac-app-ecommerce\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\controllers\\usercontroller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:controllers\\usercontroller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\services\\userservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:services\\userservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\repositories\\userrepository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:repositories\\userrepository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,36 +19,64 @@
       "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:repositories\\userrepository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\services\\userservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:services\\userservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\services\\userservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:services\\userservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\controllers\\usercontroller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:controllers\\usercontroller\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\dtos\\userdto\\registerrequest\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:dtos\\userdto\\registerrequest\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\models\\taybacdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:models\\taybacdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\helpers\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:helpers\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\dtos\\userdto\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:dtos\\userdto\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\services\\userservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:services\\userservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\dtos\\userdto\\registerrequest\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:dtos\\userdto\\registerrequest\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\dtos\\userdto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:dtos\\userdto\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\dtos\\userdto\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:dtos\\userdto\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\helpers\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:helpers\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -49,14 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{92D38452-472E-45F8-B6EC-A669A02843A2}|backend.csproj|d:\\taybac-app-ecommerce\\backend\\backend.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
@@ -70,71 +98,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "RegisterResponse.cs",
+              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\DTOs\\UserDTO\\RegisterRequest\\RegisterResponse.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDTO\\RegisterRequest\\RegisterResponse.cs",
+              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\DTOs\\UserDTO\\RegisterRequest\\RegisterResponse.cs",
+              "RelativeToolTip": "DTOs\\UserDTO\\RegisterRequest\\RegisterResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T09:07:43.916Z",
+              "WhenOpened": "2025-07-29T08:52:53.233Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegisterRequest.cs",
+              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\DTOs\\UserDTO\\RegisterRequest\\RegisterRequest.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDTO\\RegisterRequest\\RegisterRequest.cs",
+              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\DTOs\\UserDTO\\RegisterRequest\\RegisterRequest.cs",
+              "RelativeToolTip": "DTOs\\UserDTO\\RegisterRequest\\RegisterRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T08:50:26.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Repositories\\UserRepository\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository\\IUserRepository.cs",
+              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Repositories\\UserRepository\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T02:12:50.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Services\\UserService\\AuthService.cs",
               "RelativeDocumentMoniker": "Services\\UserService\\AuthService.cs",
               "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Services\\UserService\\AuthService.cs",
               "RelativeToolTip": "Services\\UserService\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAewDAAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T02:20:53.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Services\\UserService\\IAuthService.cs",
               "RelativeDocumentMoniker": "Services\\UserService\\IAuthService.cs",
               "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Services\\UserService\\IAuthService.cs",
               "RelativeToolTip": "Services\\UserService\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T02:20:00.411Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TayBacDbContext.cs",
+              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Models\\TayBacDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\TayBacDbContext.cs",
+              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Models\\TayBacDbContext.cs",
+              "RelativeToolTip": "Models\\TayBacDbContext.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAawMsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T06:35:45.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T09:07:43.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Controllers\\UserController\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController\\UserController.cs",
+              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Controllers\\UserController\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController\\UserController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T02:38:49.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Repositories\\UserRepository\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\UserRepository\\UserRepository.cs",
               "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Repositories\\UserRepository\\UserRepository.cs",
               "RelativeToolTip": "Repositories\\UserRepository\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T02:15:00.61Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Repositories\\UserRepository\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepository\\IUserRepository.cs",
-              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Repositories\\UserRepository\\IUserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepository\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T02:12:50.02Z",
+              "WhenOpened": "2025-06-02T06:58:44.933Z",
               "EditorCaption": ""
             },
             {
@@ -145,27 +243,27 @@
               "RelativeDocumentMoniker": "DTOs\\UserDTO\\LoginResponse.cs",
               "ToolTip": "D:\\taybac-app-ecommerce\\backend\\DTOs\\UserDTO\\LoginResponse.cs",
               "RelativeToolTip": "DTOs\\UserDTO\\LoginResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T02:11:35.329Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\DTOs\\UserDTO\\LoginRequest.cs",
               "RelativeDocumentMoniker": "DTOs\\UserDTO\\LoginRequest.cs",
               "ToolTip": "D:\\taybac-app-ecommerce\\backend\\DTOs\\UserDTO\\LoginRequest.cs",
               "RelativeToolTip": "DTOs\\UserDTO\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-03T01:52:57.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "backend.csproj",
               "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\backend.csproj",
               "RelativeDocumentMoniker": "backend.csproj",
@@ -178,54 +276,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 15,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Models\\Inventory.cs",
+              "RelativeDocumentMoniker": "Models\\Inventory.cs",
+              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Models\\Inventory.cs",
+              "RelativeToolTip": "Models\\Inventory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T06:35:29.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T06:32:06.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T06:35:27.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAiwEAAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T07:48:53.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-02T07:59:12.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Controllers\\UserController\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController\\UserController.cs",
-              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Controllers\\UserController\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T02:38:49.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Helpers\\JwtService.cs",
-              "RelativeDocumentMoniker": "Helpers\\JwtService.cs",
-              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Helpers\\JwtService.cs",
-              "RelativeToolTip": "Helpers\\JwtService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-04T02:34:28.504Z",
               "EditorCaption": ""
             },
             {
@@ -243,7 +341,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T07:59:12.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Models\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "Models\\OrderDetail.cs",
+              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Models\\OrderDetail.cs",
+              "RelativeToolTip": "Models\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T06:35:30.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Helpers\\JwtService.cs",
+              "RelativeDocumentMoniker": "Helpers\\JwtService.cs",
+              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Helpers\\JwtService.cs",
+              "RelativeToolTip": "Helpers\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T02:34:28.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "backend",
               "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\backend.csproj",
               "RelativeDocumentMoniker": "backend.csproj",
@@ -251,19 +388,6 @@
               "RelativeToolTip": "backend.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-06-02T07:48:10.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "D:\\taybac-app-ecommerce\\backend\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
-              "ToolTip": "D:\\taybac-app-ecommerce\\backend\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T06:58:44.933Z",
               "EditorCaption": ""
             }
           ]

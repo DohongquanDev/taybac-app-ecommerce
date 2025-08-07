@@ -162,3 +162,8 @@ D:\taybac-app-ecommerce\backend\obj\Debug\net9.0\refint\backend.dll
 D:\taybac-app-ecommerce\backend\obj\Debug\net9.0\backend.pdb
 D:\taybac-app-ecommerce\backend\obj\Debug\net9.0\backend.genruntimeconfig.cache
 D:\taybac-app-ecommerce\backend\obj\Debug\net9.0\ref\backend.dll
+D:\taybac-app-ecommerce\backend\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\taybac-app-ecommerce\backend\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\taybac-app-ecommerce\backend\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\taybac-app-ecommerce\backend\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\taybac-app-ecommerce\backend\bin\Debug\net9.0\BCrypt.Net-Next.dll
