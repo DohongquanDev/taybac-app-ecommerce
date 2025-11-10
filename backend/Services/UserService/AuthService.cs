@@ -36,19 +36,21 @@ namespace backend.Services.UserService
         {
             var existingUser = _userRepository.GetUserByUsernameOrEmail(request.UserName, request.Email);
             var errors = new List<string>();
-            if (existingUser.Username == request.UserName)
-                errors.Add("Username already exist");
-            if (existingUser.Email == request.Email)
-                errors.Add("Email already exists");
-            if(errors.Count > 0)
+            if (existingUser != null)
             {
-                return new RegisterResponse
+                if (existingUser.Username == request.UserName)
+                errors.Add("Username already exist");
+                if (existingUser.Email == request.Email)
+                    errors.Add("Email already exists");
+                if(errors.Count > 0)
                 {
-                    Success = false,
-                    Message = string.Join(" and ", errors)
-                };
+                    return new RegisterResponse
+                    {
+                        Success = false,
+                        Message = string.Join(" and ", errors)
+                    };
+                }
             }
-
             String passwordHash = BCrypt.Net.BCrypt.HashPassword(request.Password);
             var newUser = new User
             {

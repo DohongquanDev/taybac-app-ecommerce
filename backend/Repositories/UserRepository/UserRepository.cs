@@ -22,11 +22,16 @@ namespace backend.Repositories.UserRepository
             return _dbContext.Users.FirstOrDefault(u => u.Username == username || u.Email == email);
         }
 
-        public User getUserByLogin(string email,string password)
+        public User? getUserByLogin(string email, string password)
         {
-            return _dbContext.Users.SingleOrDefault(u => u.Email == email && u.PasswordHash == password);   
+            var user = _dbContext.Users.SingleOrDefault(u => u.Email == email);
+            if (user != null && BCrypt.Net.BCrypt.Verify(password, user.PasswordHash))
+            {
+                return user;
+            }
+            return null;
         }
 
-    
+
     }
 }
